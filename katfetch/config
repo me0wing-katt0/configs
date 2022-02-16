@@ -1,0 +1,23 @@
+# katfetch conf
+sysPageColor=$(tput setaf 6)
+bannerTextColor=$(tput setaf 6)
+center=true
+file=~/.ascii
+getParams $@
+printAsciiOrFiglet "$file"
+getHost
+getUserAndHostname
+getPkgs
+getDistro
+getInit
+getKernel
+getCPU
+getArchitecture
+getShell
+getTerminal
+getGPU
+getUptime
+getDisks
+getMemory
+getRes
+getBattery
