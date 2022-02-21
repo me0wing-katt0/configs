@@ -23,7 +23,7 @@ set $menu bemenu-run -b | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/q/downloads/123874-space-wallpaper-4k-3840x2160-full-hd.jpg fill
+output * bg @datadir@/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 output eDP-1 mode 1920x1080@60Hz
 output eDP-1 position 1920,0
 output DP-1 position 0,0
